@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Tahoma, sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #afddfb;
+}
+
+header img {
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+}
+
+header > ul {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+header > ul > li > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    color: #1d1d1d;
+    margin: 0 10px;
+}
+
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 0;
+    padding: 5px 0;
+}
+
+section, h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+section > h2 {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.imagem {
+    width: 450px;
+}
+    
+
+.blue {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #fff81b;
+}
+
+
+.links {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-decoration: none;
+    width: 135px;
+    margin: 0 auto;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.servicos, .contato { 
+    background-color: #1d80c1;
+}
+
+.largura {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+
+}
+
+.contato p {
+    background-color: #1d1d1d;
+    width: 60%;
+}
+
+.contato a {
+    background-color: #ffffff;
+    margin: 40px auto;
+    width: 210px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 20px;
+    
+}
+
+.contato li {
+    margin: 10px;
+}
+
+.servicos ,h3 {
+    color: #1c81c0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
